@@ -1,4 +1,4 @@
-obj-m += pci_drv.o
+obj-m += block_edu.o
 
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD  := $(shell pwd)
